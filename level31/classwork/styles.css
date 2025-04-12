@@ -1,0 +1,44 @@
+.corner {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    border: 2px solid black
+}
+#top-left {
+    top: 0;
+    left: 0;
+}
+#top-right {
+    top: 0;
+    right: 0;
+}
+#bottom-left {
+    bottom: 0;
+    left: 0;
+}
+#bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stickyheader {
+    position: sticky;
+    top: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+

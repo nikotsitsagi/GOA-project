@@ -1,0 +1,10 @@
+.hero {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(/level17/homework/coffee-cups.webp);
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    text-shadow: 0px 0px 10px black
+    
+}

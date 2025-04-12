@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Examples</title>
+    <script src="homework.js"></script>
+</head>
+<body>
+    <h2>Radio Button Form</h2>
+    <form onsubmit="event.preventDefault(); getSelectedRadioValue();">
+        <label>
+            <input type="radio" name="commentOption" value="Option 1"> Option 1
+        </label>
+        <label>
+            <input type="radio" name="commentOption" value="Option 2"> Option 2
+        </label>
+        <label>
+            <input type="radio" name="commentOption" value="Option 3"> Option 3
+        </label>
+        <button type="submit">Submit (Radio)</button>
+    </form>
+
+    <h2>Checkbox Form</h2>
+    <form onsubmit="event.preventDefault(); getSelectedCheckboxValues();">
+        <label>
+            <input type="checkbox" name="commentOptions" value="Option 1"> Option 1
+        </label>
+        <label>
+            <input type="checkbox" name="commentOptions" value="Option 2"> Option 2
+        </label>
+        <label>
+            <input type="checkbox" name="commentOptions" value="Option 3"> Option 3
+        </label>
+        <button type="submit">Submit (Checkboxes)</button>
+    </form>
+
+    <h2>Drop-down Menu Form</h2>
+    <form onsubmit="event.preventDefault(); getSelectedDropDownValue();">
+        <select id="commentSelect" name="commentOption">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+        </select>
+        <button type="submit">Submit (Drop-down)</button>
+    </form>
+
+    <h2>Test Logical Operators</h2>
+    <button onclick="testLogicalOperators()">Test Logical Operators</button>
+</body>
+</html>

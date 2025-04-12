@@ -1,0 +1,52 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: all 0.5s ease;
+}
+.square:hover {
+    border-radius: 50%;
+    transform: translateX(50px);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.circle:active {
+    background-color: red;
+    transform: translateY(100px);
+}
+
+.rotate-square {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: transform 0.5s ease;
+}
+.rotate-square:hover {
+    transform: rotate(-360deg);
+}
+
+.grow-square {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: transform 0.5s ease;
+}
+.grow-square:hover {
+    transform: scale(2);
+}
+
+.complex-square {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: all 0.5s ease;
+}
+.complex-square:hover {
+    transform: translateX(-10px) rotate(100deg) scale(0.5);
+}

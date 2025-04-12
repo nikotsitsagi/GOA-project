@@ -1,0 +1,50 @@
+<!--js გამოიყენება იმისათვის რომ ფუნქცია მივცეთ ელემენტს-->
+<!--ჯავასკრიპტის შექმნის დროს ჯავა ძალიან პოპულარული პროგრამირების ენა იყო და ამიტომაც ჯავასკრიპტი დაარქვეს ამ პროგრამირების ენას-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="showAlert()">Click Me</button>
+
+    <script>
+        function showAlert() {
+            alert('Hello World');
+        }
+    </script>
+    
+        <img id="myImage" src="./apple.jpeg" alt="Sample Image" onclick="resizeImage()">
+    
+        <script>
+            function resizeImage() {
+                var img = document.getElementById('myImage');
+                if (img.width === 200) {
+                    img.width = 400; 
+                } else {
+                    img.width = 200; 
+                }
+            }
+        </script>
+
+
+         <img id="fruitImage" src="apple.jpeg" alt="Apple Image" onclick="changeFruitImage()">
+
+         <script>
+             function changeFruitImage() {
+                 var img = document.getElementById("fruitImage");
+                 if (img.src.includes("apple.jpeg")) {
+                     img.src = "banana.jpg";
+                 } else {
+                     img.src = "apple.jpeg";
+                 }
+             }
+         </script>
+         <!--DOM არის საიტის სტრუქტურა რომელიც საშუალებას გვაძლევს javascript-ით შევცვალოთ-->
+         <p id="p" onclick="this.style.color='blue'">paragraph</p>
+
+</body>
+</html>

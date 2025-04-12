@@ -1,0 +1,15 @@
+#first{
+    text-decoration:  overline yellow dashed; 
+}
+#second{
+    text-transform: capitalize;
+}
+#third{
+    text-decoration: underline wavy purple;
+    text-align: right;
+}
+
+#fourth{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+}

@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f9f5f2;
+     
+}
+
+header {   
+    border-bottom: 5px solid black;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5000px rgba(0, 0, 0, 0.5);
+    background-image: url(/level17/homework/top-view-backdrop-representing-halves-600nw-2344232677.webp);
+    background-color: #6b4c3f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 30px black;
+   
+    
+}
+
+
+
+nav {
+    
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hero {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(/level17/homework/coffee-cups.webp);
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    text-shadow: 0px 0px 10px black
+    
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b4c3f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 10px black
+}
+
+footer {
+    border-top: 5px solid black;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5000px rgba(139, 69, 19, 0.5);
+    background-image: url(/level17/homework/top-view-backdrop-representing-halves-600nw-2344232677.webp);
+    text-align: center;
+    padding: 20px;
+    background-color: #6b4c3f;
+    color: #fff;
+    text-shadow: 0px 0px 10px black
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.box {
+    width: 250px; 
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px white;
+    transition: 1s ease
+    
+    
+}
+.box:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+}

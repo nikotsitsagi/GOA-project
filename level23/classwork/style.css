@@ -1,0 +1,17 @@
+#first{
+    text-decoration:  overline red; 
+}
+#second{
+    text-decoration:  overline green dashed; 
+}
+#third{
+    text-decoration: overline black;
+    text-align: center;
+}
+#fourth{
+    font-size: 30px;
+}
+#fifth{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

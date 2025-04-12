@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 50vh;
+}
+
+.box1, .box2, .box3 {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: red;
+    animation: animation1 3s infinite;
+}
+
+@keyframes animation1 {
+    0% {
+        transform: rotate(0deg);
+        background-color: red;
+        width: 100px;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: blue;
+        width: 150px;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: green;
+        width: 100px;
+    }
+}
+
+.box2 {
+    background-color: yellow;
+    animation: animation2 4s infinite;
+}
+
+@keyframes animation2 {
+    0% {
+        transform: rotate(0deg) scale(1);
+        background-color: yellow;
+        width: 100px;
+    }
+    33% {
+        transform: rotate(90deg) scale(1.5);
+        background-color: orange;
+        width: 120px;
+    }
+    66% {
+        transform: rotate(180deg) scale(1);
+        background-color: purple;
+        width: 150px;
+    }
+    100% {
+        transform: rotate(360deg) scale(1.2);
+        background-color: pink;
+        width: 100px;
+    }
+}
+
+.box3 {
+    background-color: grey;
+    animation: animation3 5s infinite;
+}
+
+@keyframes animation3 {
+    0% {
+        transform: rotate(0deg) scale(1);
+        background-color: grey;
+        width: 100px;
+    }
+    25% {
+        transform: rotate(90deg) scale(1.2);
+        background-color: brown;
+        width: 120px;
+    }
+    50% {
+        transform: rotate(180deg) scale(1);
+        background-color: cyan;
+        width: 150px;
+    }
+    75% {
+        transform: rotate(270deg) scale(1.3);
+        background-color: violet;
+        width: 130px;
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+        background-color: grey;
+        width: 100px;
+    }
+}
