@@ -1,0 +1,1 @@
+#gavakete codewars da gaketebulebis sqrinebi chavugde maswavlebels

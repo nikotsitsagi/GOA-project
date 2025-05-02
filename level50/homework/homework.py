@@ -1,0 +1,2 @@
+#8kyus gaugebrebi 1)https://www.codewars.com/kata/5545f109004975ea66000086/train/python 2)https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/python
+#7kyus gaugebari 1)https://www.codewars.com/kata/544aed4c4a30184e960010f4/train/python
