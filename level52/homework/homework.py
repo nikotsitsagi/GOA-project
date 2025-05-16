@@ -1,0 +1,1 @@
+#gavakete mxolod es code wars https://www.codewars.com/kata/52bc74d4ac05d0945d00054e/train/python danarcheni ver gavakete

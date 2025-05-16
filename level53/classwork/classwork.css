@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: 1s;
+  }
