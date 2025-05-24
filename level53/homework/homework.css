@@ -1,0 +1,32 @@
+.slider {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slides {
+  display: flex;
+}
+.slides img {
+  width: 500px;
+  height: 300px;
+}
+.nav {
+  text-align: center;
+  margin-top: 10px;
+}
+.nav button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+form {
+  margin: 30px auto;
+  text-align: center;
+}
+form input {
+  padding: 8px;
+  margin-right: 10px;
+}
+form button {
+  padding: 8px 12px;
+}
