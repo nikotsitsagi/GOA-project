@@ -1,0 +1,1 @@
+#gavakete classwork da chavugde sqrinebi maswavlebels
